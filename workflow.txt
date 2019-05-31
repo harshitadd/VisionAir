@@ -1,0 +1,14 @@
+# PM 2.5 invades the blood supply and PM 10 can only reach uptil the lungs 
+Approach 1 : 
+- Use of diffraction angle to compute the the PM 
+ 
+Doubts ? 
+1. Can we use phone cameras to analyse or do we have to use vision sensors to analyse
+2. What approach are we to use to - Diffraction 
+
+Work Deployment  
+- Sensor data 
+- Computer Vision 
+Method of Interpolation 
+
+
