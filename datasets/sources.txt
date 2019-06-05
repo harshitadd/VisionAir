@@ -1,0 +1,6 @@
+In order of priority : 
+
+1. https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing/data
+2. https://app.cpcbccr.com/AQI_India/
+3. https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing
+
