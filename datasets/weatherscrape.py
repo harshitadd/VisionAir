@@ -1,15 +1,11 @@
 import requests as rst 
 from bs4 import BeautifulSoup as bs
-import csv
-import sched
-import time
+import csv 
+import time 
+import sched 
 
-
-url = 'https://weather.com/en-IN/weather/today/'
-
-s = sched.scheduler(time.time, time.sleep)
-
-def scrape(sc): 
+while(1):
+    url = 'https://weather.com/en-IN/weather/today/'
     page = rst.get(url)
     soup=bs(page.text,'lxml')
 
@@ -30,6 +26,9 @@ def scrape(sc):
                 
     csv_writer.writerow(['Time :',temp])
 
+    for temp in soup.find_all('div',class_='today_nowcard-temp'):
+        for t in temp.find_all('span'):
+            csv_writer.writerow(['Temp :',t.text])
             
 
     #scraping the real time parameters 
@@ -44,8 +43,5 @@ def scrape(sc):
     csv_writer.writerow(['Humidity',prime_data[1]])
     csv_writer.writerow(['Dew Point',prime_data[2]])
     csv_writer.writerow(['Pressure',prime_data[3]])
-    csv_writer.writerow(['Visibility',prime_data[4]])   
-    s.enter(900, 1, scrape, (sc,))
-
-if(__name__=='__main__'):
-    s.run()
+    csv_writer.writerow(['Visibility',prime_data[4]])
+    time.sleep(int(60))
