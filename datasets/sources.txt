@@ -1,0 +1,19 @@
+In order of priority : 
+
+1. https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing/data
+2. https://app.cpcbccr.com/AQI_India/
+3. https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing
+
+For image dataset - 
+
+
+RAW Images - 
+1. https://www.addictivetips.com/android/take-raw-photos-on-android-no-root/ : For ground truth comparison : Root configure S4 or use this app 
+
+			
+											
+						
+						
+						
+						
+						
