@@ -44,4 +44,4 @@ while(1):
     csv_writer.writerow(['Dew Point',prime_data[2]])
     csv_writer.writerow(['Pressure',prime_data[3]])
     csv_writer.writerow(['Visibility',prime_data[4]])
-    time.sleep(int(60))
+    time.sleep(60)
