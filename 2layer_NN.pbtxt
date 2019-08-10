@@ -176,7 +176,7 @@ node {
   }
 }
 node {
-  name: "Variable"
+  name: "w1"
   op: "VariableV2"
   attr {
     key: "container"
@@ -211,9 +211,9 @@ node {
   }
 }
 node {
-  name: "Variable/Assign"
+  name: "w1/Assign"
   op: "Assign"
-  input: "Variable"
+  input: "w1"
   input: "random_uniform"
   attr {
     key: "T"
@@ -225,7 +225,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@w1"
       }
     }
   }
@@ -243,9 +243,9 @@ node {
   }
 }
 node {
-  name: "Variable/read"
+  name: "w1/read"
   op: "Identity"
-  input: "Variable"
+  input: "w1"
   attr {
     key: "T"
     value {
@@ -256,7 +256,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@w1"
       }
     }
   }
@@ -393,7 +393,7 @@ node {
   }
 }
 node {
-  name: "Variable_1"
+  name: "b1"
   op: "VariableV2"
   attr {
     key: "container"
@@ -428,9 +428,9 @@ node {
   }
 }
 node {
-  name: "Variable_1/Assign"
+  name: "b1/Assign"
   op: "Assign"
-  input: "Variable_1"
+  input: "b1"
   input: "random_uniform_1"
   attr {
     key: "T"
@@ -442,7 +442,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b1"
       }
     }
   }
@@ -460,9 +460,9 @@ node {
   }
 }
 node {
-  name: "Variable_1/read"
+  name: "b1/read"
   op: "Identity"
-  input: "Variable_1"
+  input: "b1"
   attr {
     key: "T"
     value {
@@ -473,7 +473,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b1"
       }
     }
   }
@@ -610,7 +610,7 @@ node {
   }
 }
 node {
-  name: "Variable_2"
+  name: "w2"
   op: "VariableV2"
   attr {
     key: "container"
@@ -645,9 +645,9 @@ node {
   }
 }
 node {
-  name: "Variable_2/Assign"
+  name: "w2/Assign"
   op: "Assign"
-  input: "Variable_2"
+  input: "w2"
   input: "random_uniform_2"
   attr {
     key: "T"
@@ -659,7 +659,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@w2"
       }
     }
   }
@@ -677,9 +677,9 @@ node {
   }
 }
 node {
-  name: "Variable_2/read"
+  name: "w2/read"
   op: "Identity"
-  input: "Variable_2"
+  input: "w2"
   attr {
     key: "T"
     value {
@@ -690,7 +690,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@w2"
       }
     }
   }
@@ -827,7 +827,7 @@ node {
   }
 }
 node {
-  name: "Variable_3"
+  name: "b2"
   op: "VariableV2"
   attr {
     key: "container"
@@ -862,9 +862,9 @@ node {
   }
 }
 node {
-  name: "Variable_3/Assign"
+  name: "b2/Assign"
   op: "Assign"
-  input: "Variable_3"
+  input: "b2"
   input: "random_uniform_3"
   attr {
     key: "T"
@@ -876,7 +876,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@b2"
       }
     }
   }
@@ -894,9 +894,9 @@ node {
   }
 }
 node {
-  name: "Variable_3/read"
+  name: "b2/read"
   op: "Identity"
-  input: "Variable_3"
+  input: "b2"
   attr {
     key: "T"
     value {
@@ -907,7 +907,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@b2"
       }
     }
   }
@@ -1044,7 +1044,7 @@ node {
   }
 }
 node {
-  name: "Variable_4"
+  name: "wo"
   op: "VariableV2"
   attr {
     key: "container"
@@ -1079,9 +1079,9 @@ node {
   }
 }
 node {
-  name: "Variable_4/Assign"
+  name: "wo/Assign"
   op: "Assign"
-  input: "Variable_4"
+  input: "wo"
   input: "random_uniform_4"
   attr {
     key: "T"
@@ -1093,7 +1093,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@wo"
       }
     }
   }
@@ -1111,9 +1111,9 @@ node {
   }
 }
 node {
-  name: "Variable_4/read"
+  name: "wo/read"
   op: "Identity"
-  input: "Variable_4"
+  input: "wo"
   attr {
     key: "T"
     value {
@@ -1124,7 +1124,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@wo"
       }
     }
   }
@@ -1261,7 +1261,7 @@ node {
   }
 }
 node {
-  name: "Variable_5"
+  name: "bo"
   op: "VariableV2"
   attr {
     key: "container"
@@ -1296,9 +1296,9 @@ node {
   }
 }
 node {
-  name: "Variable_5/Assign"
+  name: "bo/Assign"
   op: "Assign"
-  input: "Variable_5"
+  input: "bo"
   input: "random_uniform_5"
   attr {
     key: "T"
@@ -1310,7 +1310,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@bo"
       }
     }
   }
@@ -1328,9 +1328,9 @@ node {
   }
 }
 node {
-  name: "Variable_5/read"
+  name: "bo/read"
   op: "Identity"
-  input: "Variable_5"
+  input: "bo"
   attr {
     key: "T"
     value {
@@ -1341,7 +1341,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@bo"
       }
     }
   }
@@ -1350,7 +1350,7 @@ node {
   name: "MatMul"
   op: "MatMul"
   input: "input"
-  input: "Variable/read"
+  input: "w1/read"
   attr {
     key: "T"
     value {
@@ -1374,7 +1374,7 @@ node {
   name: "hidden1"
   op: "Add"
   input: "MatMul"
-  input: "Variable_1/read"
+  input: "b1/read"
   attr {
     key: "T"
     value {
@@ -1397,7 +1397,7 @@ node {
   name: "MatMul_1"
   op: "MatMul"
   input: "Relu"
-  input: "Variable_2/read"
+  input: "w2/read"
   attr {
     key: "T"
     value {
@@ -1421,7 +1421,7 @@ node {
   name: "hidden2"
   op: "Add"
   input: "MatMul_1"
-  input: "Variable_3/read"
+  input: "b2/read"
   attr {
     key: "T"
     value {
@@ -1444,7 +1444,7 @@ node {
   name: "MatMul_2"
   op: "MatMul"
   input: "Relu_1"
-  input: "Variable_4/read"
+  input: "wo/read"
   attr {
     key: "T"
     value {
@@ -1468,7 +1468,7 @@ node {
   name: "output"
   op: "Add"
   input: "MatMul_2"
-  input: "Variable_5/read"
+  input: "bo/read"
   attr {
     key: "T"
     value {
@@ -2320,7 +2320,7 @@ node {
   name: "gradients/MatMul_2_grad/MatMul"
   op: "MatMul"
   input: "gradients/output_grad/tuple/control_dependency"
-  input: "Variable_4/read"
+  input: "wo/read"
   attr {
     key: "T"
     value {
@@ -2609,7 +2609,7 @@ node {
   name: "gradients/MatMul_1_grad/MatMul"
   op: "MatMul"
   input: "gradients/hidden2_grad/tuple/control_dependency"
-  input: "Variable_2/read"
+  input: "w2/read"
   attr {
     key: "T"
     value {
@@ -2898,7 +2898,7 @@ node {
   name: "gradients/MatMul_grad/MatMul"
   op: "MatMul"
   input: "gradients/hidden1_grad/tuple/control_dependency"
-  input: "Variable/read"
+  input: "w1/read"
   attr {
     key: "T"
     value {
@@ -2995,7 +2995,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -3024,7 +3024,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -3069,7 +3069,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -3100,7 +3100,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -3112,7 +3112,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -3141,7 +3141,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -3186,7 +3186,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -3217,19 +3217,19 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
 }
 node {
-  name: "Variable/optimizer/Initializer/zeros"
+  name: "w1/optimizer/Initializer/zeros"
   op: "Const"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@w1"
       }
     }
   }
@@ -3258,13 +3258,13 @@ node {
   }
 }
 node {
-  name: "Variable/optimizer"
+  name: "w1/optimizer"
   op: "VariableV2"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@w1"
       }
     }
   }
@@ -3301,10 +3301,10 @@ node {
   }
 }
 node {
-  name: "Variable/optimizer/Assign"
+  name: "w1/optimizer/Assign"
   op: "Assign"
-  input: "Variable/optimizer"
-  input: "Variable/optimizer/Initializer/zeros"
+  input: "w1/optimizer"
+  input: "w1/optimizer/Initializer/zeros"
   attr {
     key: "T"
     value {
@@ -3315,7 +3315,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@w1"
       }
     }
   }
@@ -3333,9 +3333,9 @@ node {
   }
 }
 node {
-  name: "Variable/optimizer/read"
+  name: "w1/optimizer/read"
   op: "Identity"
-  input: "Variable/optimizer"
+  input: "w1/optimizer"
   attr {
     key: "T"
     value {
@@ -3346,19 +3346,19 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@w1"
       }
     }
   }
 }
 node {
-  name: "Variable/optimizer_1/Initializer/zeros"
+  name: "w1/optimizer_1/Initializer/zeros"
   op: "Const"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@w1"
       }
     }
   }
@@ -3387,13 +3387,13 @@ node {
   }
 }
 node {
-  name: "Variable/optimizer_1"
+  name: "w1/optimizer_1"
   op: "VariableV2"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@w1"
       }
     }
   }
@@ -3430,10 +3430,10 @@ node {
   }
 }
 node {
-  name: "Variable/optimizer_1/Assign"
+  name: "w1/optimizer_1/Assign"
   op: "Assign"
-  input: "Variable/optimizer_1"
-  input: "Variable/optimizer_1/Initializer/zeros"
+  input: "w1/optimizer_1"
+  input: "w1/optimizer_1/Initializer/zeros"
   attr {
     key: "T"
     value {
@@ -3444,7 +3444,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@w1"
       }
     }
   }
@@ -3462,9 +3462,9 @@ node {
   }
 }
 node {
-  name: "Variable/optimizer_1/read"
+  name: "w1/optimizer_1/read"
   op: "Identity"
-  input: "Variable/optimizer_1"
+  input: "w1/optimizer_1"
   attr {
     key: "T"
     value {
@@ -3475,19 +3475,19 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@w1"
       }
     }
   }
 }
 node {
-  name: "Variable_1/optimizer/Initializer/zeros"
+  name: "b1/optimizer/Initializer/zeros"
   op: "Const"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b1"
       }
     }
   }
@@ -3516,13 +3516,13 @@ node {
   }
 }
 node {
-  name: "Variable_1/optimizer"
+  name: "b1/optimizer"
   op: "VariableV2"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b1"
       }
     }
   }
@@ -3559,10 +3559,10 @@ node {
   }
 }
 node {
-  name: "Variable_1/optimizer/Assign"
+  name: "b1/optimizer/Assign"
   op: "Assign"
-  input: "Variable_1/optimizer"
-  input: "Variable_1/optimizer/Initializer/zeros"
+  input: "b1/optimizer"
+  input: "b1/optimizer/Initializer/zeros"
   attr {
     key: "T"
     value {
@@ -3573,7 +3573,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b1"
       }
     }
   }
@@ -3591,9 +3591,9 @@ node {
   }
 }
 node {
-  name: "Variable_1/optimizer/read"
+  name: "b1/optimizer/read"
   op: "Identity"
-  input: "Variable_1/optimizer"
+  input: "b1/optimizer"
   attr {
     key: "T"
     value {
@@ -3604,19 +3604,19 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b1"
       }
     }
   }
 }
 node {
-  name: "Variable_1/optimizer_1/Initializer/zeros"
+  name: "b1/optimizer_1/Initializer/zeros"
   op: "Const"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b1"
       }
     }
   }
@@ -3645,13 +3645,13 @@ node {
   }
 }
 node {
-  name: "Variable_1/optimizer_1"
+  name: "b1/optimizer_1"
   op: "VariableV2"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b1"
       }
     }
   }
@@ -3688,10 +3688,10 @@ node {
   }
 }
 node {
-  name: "Variable_1/optimizer_1/Assign"
+  name: "b1/optimizer_1/Assign"
   op: "Assign"
-  input: "Variable_1/optimizer_1"
-  input: "Variable_1/optimizer_1/Initializer/zeros"
+  input: "b1/optimizer_1"
+  input: "b1/optimizer_1/Initializer/zeros"
   attr {
     key: "T"
     value {
@@ -3702,7 +3702,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b1"
       }
     }
   }
@@ -3720,9 +3720,9 @@ node {
   }
 }
 node {
-  name: "Variable_1/optimizer_1/read"
+  name: "b1/optimizer_1/read"
   op: "Identity"
-  input: "Variable_1/optimizer_1"
+  input: "b1/optimizer_1"
   attr {
     key: "T"
     value {
@@ -3733,19 +3733,19 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b1"
       }
     }
   }
 }
 node {
-  name: "Variable_2/optimizer/Initializer/zeros"
+  name: "w2/optimizer/Initializer/zeros"
   op: "Const"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@w2"
       }
     }
   }
@@ -3774,13 +3774,13 @@ node {
   }
 }
 node {
-  name: "Variable_2/optimizer"
+  name: "w2/optimizer"
   op: "VariableV2"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@w2"
       }
     }
   }
@@ -3817,10 +3817,10 @@ node {
   }
 }
 node {
-  name: "Variable_2/optimizer/Assign"
+  name: "w2/optimizer/Assign"
   op: "Assign"
-  input: "Variable_2/optimizer"
-  input: "Variable_2/optimizer/Initializer/zeros"
+  input: "w2/optimizer"
+  input: "w2/optimizer/Initializer/zeros"
   attr {
     key: "T"
     value {
@@ -3831,7 +3831,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@w2"
       }
     }
   }
@@ -3849,9 +3849,9 @@ node {
   }
 }
 node {
-  name: "Variable_2/optimizer/read"
+  name: "w2/optimizer/read"
   op: "Identity"
-  input: "Variable_2/optimizer"
+  input: "w2/optimizer"
   attr {
     key: "T"
     value {
@@ -3862,19 +3862,19 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@w2"
       }
     }
   }
 }
 node {
-  name: "Variable_2/optimizer_1/Initializer/zeros"
+  name: "w2/optimizer_1/Initializer/zeros"
   op: "Const"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@w2"
       }
     }
   }
@@ -3903,13 +3903,13 @@ node {
   }
 }
 node {
-  name: "Variable_2/optimizer_1"
+  name: "w2/optimizer_1"
   op: "VariableV2"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@w2"
       }
     }
   }
@@ -3946,10 +3946,10 @@ node {
   }
 }
 node {
-  name: "Variable_2/optimizer_1/Assign"
+  name: "w2/optimizer_1/Assign"
   op: "Assign"
-  input: "Variable_2/optimizer_1"
-  input: "Variable_2/optimizer_1/Initializer/zeros"
+  input: "w2/optimizer_1"
+  input: "w2/optimizer_1/Initializer/zeros"
   attr {
     key: "T"
     value {
@@ -3960,7 +3960,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@w2"
       }
     }
   }
@@ -3978,9 +3978,9 @@ node {
   }
 }
 node {
-  name: "Variable_2/optimizer_1/read"
+  name: "w2/optimizer_1/read"
   op: "Identity"
-  input: "Variable_2/optimizer_1"
+  input: "w2/optimizer_1"
   attr {
     key: "T"
     value {
@@ -3991,19 +3991,19 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@w2"
       }
     }
   }
 }
 node {
-  name: "Variable_3/optimizer/Initializer/zeros"
+  name: "b2/optimizer/Initializer/zeros"
   op: "Const"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@b2"
       }
     }
   }
@@ -4032,13 +4032,13 @@ node {
   }
 }
 node {
-  name: "Variable_3/optimizer"
+  name: "b2/optimizer"
   op: "VariableV2"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@b2"
       }
     }
   }
@@ -4075,10 +4075,10 @@ node {
   }
 }
 node {
-  name: "Variable_3/optimizer/Assign"
+  name: "b2/optimizer/Assign"
   op: "Assign"
-  input: "Variable_3/optimizer"
-  input: "Variable_3/optimizer/Initializer/zeros"
+  input: "b2/optimizer"
+  input: "b2/optimizer/Initializer/zeros"
   attr {
     key: "T"
     value {
@@ -4089,7 +4089,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@b2"
       }
     }
   }
@@ -4107,9 +4107,9 @@ node {
   }
 }
 node {
-  name: "Variable_3/optimizer/read"
+  name: "b2/optimizer/read"
   op: "Identity"
-  input: "Variable_3/optimizer"
+  input: "b2/optimizer"
   attr {
     key: "T"
     value {
@@ -4120,19 +4120,19 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@b2"
       }
     }
   }
 }
 node {
-  name: "Variable_3/optimizer_1/Initializer/zeros"
+  name: "b2/optimizer_1/Initializer/zeros"
   op: "Const"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@b2"
       }
     }
   }
@@ -4161,13 +4161,13 @@ node {
   }
 }
 node {
-  name: "Variable_3/optimizer_1"
+  name: "b2/optimizer_1"
   op: "VariableV2"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@b2"
       }
     }
   }
@@ -4204,10 +4204,10 @@ node {
   }
 }
 node {
-  name: "Variable_3/optimizer_1/Assign"
+  name: "b2/optimizer_1/Assign"
   op: "Assign"
-  input: "Variable_3/optimizer_1"
-  input: "Variable_3/optimizer_1/Initializer/zeros"
+  input: "b2/optimizer_1"
+  input: "b2/optimizer_1/Initializer/zeros"
   attr {
     key: "T"
     value {
@@ -4218,7 +4218,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@b2"
       }
     }
   }
@@ -4236,9 +4236,9 @@ node {
   }
 }
 node {
-  name: "Variable_3/optimizer_1/read"
+  name: "b2/optimizer_1/read"
   op: "Identity"
-  input: "Variable_3/optimizer_1"
+  input: "b2/optimizer_1"
   attr {
     key: "T"
     value {
@@ -4249,19 +4249,19 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@b2"
       }
     }
   }
 }
 node {
-  name: "Variable_4/optimizer/Initializer/zeros"
+  name: "wo/optimizer/Initializer/zeros"
   op: "Const"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@wo"
       }
     }
   }
@@ -4290,13 +4290,13 @@ node {
   }
 }
 node {
-  name: "Variable_4/optimizer"
+  name: "wo/optimizer"
   op: "VariableV2"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@wo"
       }
     }
   }
@@ -4333,10 +4333,10 @@ node {
   }
 }
 node {
-  name: "Variable_4/optimizer/Assign"
+  name: "wo/optimizer/Assign"
   op: "Assign"
-  input: "Variable_4/optimizer"
-  input: "Variable_4/optimizer/Initializer/zeros"
+  input: "wo/optimizer"
+  input: "wo/optimizer/Initializer/zeros"
   attr {
     key: "T"
     value {
@@ -4347,7 +4347,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@wo"
       }
     }
   }
@@ -4365,9 +4365,9 @@ node {
   }
 }
 node {
-  name: "Variable_4/optimizer/read"
+  name: "wo/optimizer/read"
   op: "Identity"
-  input: "Variable_4/optimizer"
+  input: "wo/optimizer"
   attr {
     key: "T"
     value {
@@ -4378,19 +4378,19 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@wo"
       }
     }
   }
 }
 node {
-  name: "Variable_4/optimizer_1/Initializer/zeros"
+  name: "wo/optimizer_1/Initializer/zeros"
   op: "Const"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@wo"
       }
     }
   }
@@ -4419,13 +4419,13 @@ node {
   }
 }
 node {
-  name: "Variable_4/optimizer_1"
+  name: "wo/optimizer_1"
   op: "VariableV2"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@wo"
       }
     }
   }
@@ -4462,10 +4462,10 @@ node {
   }
 }
 node {
-  name: "Variable_4/optimizer_1/Assign"
+  name: "wo/optimizer_1/Assign"
   op: "Assign"
-  input: "Variable_4/optimizer_1"
-  input: "Variable_4/optimizer_1/Initializer/zeros"
+  input: "wo/optimizer_1"
+  input: "wo/optimizer_1/Initializer/zeros"
   attr {
     key: "T"
     value {
@@ -4476,7 +4476,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@wo"
       }
     }
   }
@@ -4494,9 +4494,9 @@ node {
   }
 }
 node {
-  name: "Variable_4/optimizer_1/read"
+  name: "wo/optimizer_1/read"
   op: "Identity"
-  input: "Variable_4/optimizer_1"
+  input: "wo/optimizer_1"
   attr {
     key: "T"
     value {
@@ -4507,19 +4507,19 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@wo"
       }
     }
   }
 }
 node {
-  name: "Variable_5/optimizer/Initializer/zeros"
+  name: "bo/optimizer/Initializer/zeros"
   op: "Const"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@bo"
       }
     }
   }
@@ -4548,13 +4548,13 @@ node {
   }
 }
 node {
-  name: "Variable_5/optimizer"
+  name: "bo/optimizer"
   op: "VariableV2"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@bo"
       }
     }
   }
@@ -4591,10 +4591,10 @@ node {
   }
 }
 node {
-  name: "Variable_5/optimizer/Assign"
+  name: "bo/optimizer/Assign"
   op: "Assign"
-  input: "Variable_5/optimizer"
-  input: "Variable_5/optimizer/Initializer/zeros"
+  input: "bo/optimizer"
+  input: "bo/optimizer/Initializer/zeros"
   attr {
     key: "T"
     value {
@@ -4605,7 +4605,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@bo"
       }
     }
   }
@@ -4623,9 +4623,9 @@ node {
   }
 }
 node {
-  name: "Variable_5/optimizer/read"
+  name: "bo/optimizer/read"
   op: "Identity"
-  input: "Variable_5/optimizer"
+  input: "bo/optimizer"
   attr {
     key: "T"
     value {
@@ -4636,19 +4636,19 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@bo"
       }
     }
   }
 }
 node {
-  name: "Variable_5/optimizer_1/Initializer/zeros"
+  name: "bo/optimizer_1/Initializer/zeros"
   op: "Const"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@bo"
       }
     }
   }
@@ -4677,13 +4677,13 @@ node {
   }
 }
 node {
-  name: "Variable_5/optimizer_1"
+  name: "bo/optimizer_1"
   op: "VariableV2"
   attr {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@bo"
       }
     }
   }
@@ -4720,10 +4720,10 @@ node {
   }
 }
 node {
-  name: "Variable_5/optimizer_1/Assign"
+  name: "bo/optimizer_1/Assign"
   op: "Assign"
-  input: "Variable_5/optimizer_1"
-  input: "Variable_5/optimizer_1/Initializer/zeros"
+  input: "bo/optimizer_1"
+  input: "bo/optimizer_1/Initializer/zeros"
   attr {
     key: "T"
     value {
@@ -4734,7 +4734,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@bo"
       }
     }
   }
@@ -4752,9 +4752,9 @@ node {
   }
 }
 node {
-  name: "Variable_5/optimizer_1/read"
+  name: "bo/optimizer_1/read"
   op: "Identity"
-  input: "Variable_5/optimizer_1"
+  input: "bo/optimizer_1"
   attr {
     key: "T"
     value {
@@ -4765,7 +4765,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@bo"
       }
     }
   }
@@ -4855,11 +4855,11 @@ node {
   }
 }
 node {
-  name: "train_op/update_Variable/ApplyAdam"
+  name: "train_op/update_w1/ApplyAdam"
   op: "ApplyAdam"
-  input: "Variable"
-  input: "Variable/optimizer"
-  input: "Variable/optimizer_1"
+  input: "w1"
+  input: "w1/optimizer"
+  input: "w1/optimizer_1"
   input: "beta1_power/read"
   input: "beta2_power/read"
   input: "train_op/learning_rate"
@@ -4877,7 +4877,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@w1"
       }
     }
   }
@@ -4895,11 +4895,11 @@ node {
   }
 }
 node {
-  name: "train_op/update_Variable_1/ApplyAdam"
+  name: "train_op/update_b1/ApplyAdam"
   op: "ApplyAdam"
-  input: "Variable_1"
-  input: "Variable_1/optimizer"
-  input: "Variable_1/optimizer_1"
+  input: "b1"
+  input: "b1/optimizer"
+  input: "b1/optimizer_1"
   input: "beta1_power/read"
   input: "beta2_power/read"
   input: "train_op/learning_rate"
@@ -4917,7 +4917,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b1"
       }
     }
   }
@@ -4935,11 +4935,11 @@ node {
   }
 }
 node {
-  name: "train_op/update_Variable_2/ApplyAdam"
+  name: "train_op/update_w2/ApplyAdam"
   op: "ApplyAdam"
-  input: "Variable_2"
-  input: "Variable_2/optimizer"
-  input: "Variable_2/optimizer_1"
+  input: "w2"
+  input: "w2/optimizer"
+  input: "w2/optimizer_1"
   input: "beta1_power/read"
   input: "beta2_power/read"
   input: "train_op/learning_rate"
@@ -4957,7 +4957,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@w2"
       }
     }
   }
@@ -4975,11 +4975,11 @@ node {
   }
 }
 node {
-  name: "train_op/update_Variable_3/ApplyAdam"
+  name: "train_op/update_b2/ApplyAdam"
   op: "ApplyAdam"
-  input: "Variable_3"
-  input: "Variable_3/optimizer"
-  input: "Variable_3/optimizer_1"
+  input: "b2"
+  input: "b2/optimizer"
+  input: "b2/optimizer_1"
   input: "beta1_power/read"
   input: "beta2_power/read"
   input: "train_op/learning_rate"
@@ -4997,7 +4997,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@b2"
       }
     }
   }
@@ -5015,11 +5015,11 @@ node {
   }
 }
 node {
-  name: "train_op/update_Variable_4/ApplyAdam"
+  name: "train_op/update_wo/ApplyAdam"
   op: "ApplyAdam"
-  input: "Variable_4"
-  input: "Variable_4/optimizer"
-  input: "Variable_4/optimizer_1"
+  input: "wo"
+  input: "wo/optimizer"
+  input: "wo/optimizer_1"
   input: "beta1_power/read"
   input: "beta2_power/read"
   input: "train_op/learning_rate"
@@ -5037,7 +5037,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@wo"
       }
     }
   }
@@ -5055,11 +5055,11 @@ node {
   }
 }
 node {
-  name: "train_op/update_Variable_5/ApplyAdam"
+  name: "train_op/update_bo/ApplyAdam"
   op: "ApplyAdam"
-  input: "Variable_5"
-  input: "Variable_5/optimizer"
-  input: "Variable_5/optimizer_1"
+  input: "bo"
+  input: "bo/optimizer"
+  input: "bo/optimizer_1"
   input: "beta1_power/read"
   input: "beta2_power/read"
   input: "train_op/learning_rate"
@@ -5077,7 +5077,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@bo"
       }
     }
   }
@@ -5099,12 +5099,12 @@ node {
   op: "Mul"
   input: "beta1_power/read"
   input: "train_op/beta1"
-  input: "^train_op/update_Variable/ApplyAdam"
-  input: "^train_op/update_Variable_1/ApplyAdam"
-  input: "^train_op/update_Variable_2/ApplyAdam"
-  input: "^train_op/update_Variable_3/ApplyAdam"
-  input: "^train_op/update_Variable_4/ApplyAdam"
-  input: "^train_op/update_Variable_5/ApplyAdam"
+  input: "^train_op/update_b1/ApplyAdam"
+  input: "^train_op/update_b2/ApplyAdam"
+  input: "^train_op/update_bo/ApplyAdam"
+  input: "^train_op/update_w1/ApplyAdam"
+  input: "^train_op/update_w2/ApplyAdam"
+  input: "^train_op/update_wo/ApplyAdam"
   attr {
     key: "T"
     value {
@@ -5115,7 +5115,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -5135,7 +5135,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -5157,12 +5157,12 @@ node {
   op: "Mul"
   input: "beta2_power/read"
   input: "train_op/beta2"
-  input: "^train_op/update_Variable/ApplyAdam"
-  input: "^train_op/update_Variable_1/ApplyAdam"
-  input: "^train_op/update_Variable_2/ApplyAdam"
-  input: "^train_op/update_Variable_3/ApplyAdam"
-  input: "^train_op/update_Variable_4/ApplyAdam"
-  input: "^train_op/update_Variable_5/ApplyAdam"
+  input: "^train_op/update_b1/ApplyAdam"
+  input: "^train_op/update_b2/ApplyAdam"
+  input: "^train_op/update_bo/ApplyAdam"
+  input: "^train_op/update_w1/ApplyAdam"
+  input: "^train_op/update_w2/ApplyAdam"
+  input: "^train_op/update_wo/ApplyAdam"
   attr {
     key: "T"
     value {
@@ -5173,7 +5173,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -5193,7 +5193,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -5215,12 +5215,12 @@ node {
   op: "NoOp"
   input: "^train_op/Assign"
   input: "^train_op/Assign_1"
-  input: "^train_op/update_Variable/ApplyAdam"
-  input: "^train_op/update_Variable_1/ApplyAdam"
-  input: "^train_op/update_Variable_2/ApplyAdam"
-  input: "^train_op/update_Variable_3/ApplyAdam"
-  input: "^train_op/update_Variable_4/ApplyAdam"
-  input: "^train_op/update_Variable_5/ApplyAdam"
+  input: "^train_op/update_b1/ApplyAdam"
+  input: "^train_op/update_b2/ApplyAdam"
+  input: "^train_op/update_bo/ApplyAdam"
+  input: "^train_op/update_w1/ApplyAdam"
+  input: "^train_op/update_w2/ApplyAdam"
+  input: "^train_op/update_wo/ApplyAdam"
 }
 node {
   name: "save/filename/input"
@@ -5298,26 +5298,26 @@ node {
             size: 20
           }
         }
-        string_val: "Variable"
-        string_val: "Variable/optimizer"
-        string_val: "Variable/optimizer_1"
-        string_val: "Variable_1"
-        string_val: "Variable_1/optimizer"
-        string_val: "Variable_1/optimizer_1"
-        string_val: "Variable_2"
-        string_val: "Variable_2/optimizer"
-        string_val: "Variable_2/optimizer_1"
-        string_val: "Variable_3"
-        string_val: "Variable_3/optimizer"
-        string_val: "Variable_3/optimizer_1"
-        string_val: "Variable_4"
-        string_val: "Variable_4/optimizer"
-        string_val: "Variable_4/optimizer_1"
-        string_val: "Variable_5"
-        string_val: "Variable_5/optimizer"
-        string_val: "Variable_5/optimizer_1"
+        string_val: "b1"
+        string_val: "b1/optimizer"
+        string_val: "b1/optimizer_1"
+        string_val: "b2"
+        string_val: "b2/optimizer"
+        string_val: "b2/optimizer_1"
         string_val: "beta1_power"
         string_val: "beta2_power"
+        string_val: "bo"
+        string_val: "bo/optimizer"
+        string_val: "bo/optimizer_1"
+        string_val: "w1"
+        string_val: "w1/optimizer"
+        string_val: "w1/optimizer_1"
+        string_val: "w2"
+        string_val: "w2/optimizer"
+        string_val: "w2/optimizer_1"
+        string_val: "wo"
+        string_val: "wo/optimizer"
+        string_val: "wo/optimizer_1"
       }
     }
   }
@@ -5371,26 +5371,26 @@ node {
   input: "save/Const"
   input: "save/SaveV2/tensor_names"
   input: "save/SaveV2/shape_and_slices"
-  input: "Variable"
-  input: "Variable/optimizer"
-  input: "Variable/optimizer_1"
-  input: "Variable_1"
-  input: "Variable_1/optimizer"
-  input: "Variable_1/optimizer_1"
-  input: "Variable_2"
-  input: "Variable_2/optimizer"
-  input: "Variable_2/optimizer_1"
-  input: "Variable_3"
-  input: "Variable_3/optimizer"
-  input: "Variable_3/optimizer_1"
-  input: "Variable_4"
-  input: "Variable_4/optimizer"
-  input: "Variable_4/optimizer_1"
-  input: "Variable_5"
-  input: "Variable_5/optimizer"
-  input: "Variable_5/optimizer_1"
+  input: "b1"
+  input: "b1/optimizer"
+  input: "b1/optimizer_1"
+  input: "b2"
+  input: "b2/optimizer"
+  input: "b2/optimizer_1"
   input: "beta1_power"
   input: "beta2_power"
+  input: "bo"
+  input: "bo/optimizer"
+  input: "bo/optimizer_1"
+  input: "w1"
+  input: "w1/optimizer"
+  input: "w1/optimizer_1"
+  input: "w2"
+  input: "w2/optimizer"
+  input: "w2/optimizer_1"
+  input: "wo"
+  input: "wo/optimizer"
+  input: "wo/optimizer_1"
   attr {
     key: "dtypes"
     value {
@@ -5459,26 +5459,26 @@ node {
             size: 20
           }
         }
-        string_val: "Variable"
-        string_val: "Variable/optimizer"
-        string_val: "Variable/optimizer_1"
-        string_val: "Variable_1"
-        string_val: "Variable_1/optimizer"
-        string_val: "Variable_1/optimizer_1"
-        string_val: "Variable_2"
-        string_val: "Variable_2/optimizer"
-        string_val: "Variable_2/optimizer_1"
-        string_val: "Variable_3"
-        string_val: "Variable_3/optimizer"
-        string_val: "Variable_3/optimizer_1"
-        string_val: "Variable_4"
-        string_val: "Variable_4/optimizer"
-        string_val: "Variable_4/optimizer_1"
-        string_val: "Variable_5"
-        string_val: "Variable_5/optimizer"
-        string_val: "Variable_5/optimizer_1"
+        string_val: "b1"
+        string_val: "b1/optimizer"
+        string_val: "b1/optimizer_1"
+        string_val: "b2"
+        string_val: "b2/optimizer"
+        string_val: "b2/optimizer_1"
         string_val: "beta1_power"
         string_val: "beta2_power"
+        string_val: "bo"
+        string_val: "bo/optimizer"
+        string_val: "bo/optimizer_1"
+        string_val: "w1"
+        string_val: "w1/optimizer"
+        string_val: "w1/optimizer_1"
+        string_val: "w2"
+        string_val: "w2/optimizer"
+        string_val: "w2/optimizer_1"
+        string_val: "wo"
+        string_val: "wo/optimizer"
+        string_val: "wo/optimizer_1"
       }
     }
   }
@@ -5565,7 +5565,7 @@ node {
 node {
   name: "save/Assign"
   op: "Assign"
-  input: "Variable"
+  input: "b1"
   input: "save/RestoreV2"
   attr {
     key: "T"
@@ -5577,7 +5577,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -5597,7 +5597,7 @@ node {
 node {
   name: "save/Assign_1"
   op: "Assign"
-  input: "Variable/optimizer"
+  input: "b1/optimizer"
   input: "save/RestoreV2:1"
   attr {
     key: "T"
@@ -5609,7 +5609,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -5629,7 +5629,7 @@ node {
 node {
   name: "save/Assign_2"
   op: "Assign"
-  input: "Variable/optimizer_1"
+  input: "b1/optimizer_1"
   input: "save/RestoreV2:2"
   attr {
     key: "T"
@@ -5641,7 +5641,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -5661,7 +5661,7 @@ node {
 node {
   name: "save/Assign_3"
   op: "Assign"
-  input: "Variable_1"
+  input: "b2"
   input: "save/RestoreV2:3"
   attr {
     key: "T"
@@ -5673,7 +5673,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b2"
       }
     }
   }
@@ -5693,7 +5693,7 @@ node {
 node {
   name: "save/Assign_4"
   op: "Assign"
-  input: "Variable_1/optimizer"
+  input: "b2/optimizer"
   input: "save/RestoreV2:4"
   attr {
     key: "T"
@@ -5705,7 +5705,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b2"
       }
     }
   }
@@ -5725,7 +5725,7 @@ node {
 node {
   name: "save/Assign_5"
   op: "Assign"
-  input: "Variable_1/optimizer_1"
+  input: "b2/optimizer_1"
   input: "save/RestoreV2:5"
   attr {
     key: "T"
@@ -5737,7 +5737,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b2"
       }
     }
   }
@@ -5757,7 +5757,7 @@ node {
 node {
   name: "save/Assign_6"
   op: "Assign"
-  input: "Variable_2"
+  input: "beta1_power"
   input: "save/RestoreV2:6"
   attr {
     key: "T"
@@ -5769,7 +5769,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@b1"
       }
     }
   }
@@ -5789,7 +5789,7 @@ node {
 node {
   name: "save/Assign_7"
   op: "Assign"
-  input: "Variable_2/optimizer"
+  input: "beta2_power"
   input: "save/RestoreV2:7"
   attr {
     key: "T"
@@ -5801,7 +5801,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@b1"
       }
     }
   }
@@ -5821,7 +5821,7 @@ node {
 node {
   name: "save/Assign_8"
   op: "Assign"
-  input: "Variable_2/optimizer_1"
+  input: "bo"
   input: "save/RestoreV2:8"
   attr {
     key: "T"
@@ -5833,7 +5833,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@bo"
       }
     }
   }
@@ -5853,7 +5853,7 @@ node {
 node {
   name: "save/Assign_9"
   op: "Assign"
-  input: "Variable_3"
+  input: "bo/optimizer"
   input: "save/RestoreV2:9"
   attr {
     key: "T"
@@ -5865,7 +5865,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@bo"
       }
     }
   }
@@ -5885,7 +5885,7 @@ node {
 node {
   name: "save/Assign_10"
   op: "Assign"
-  input: "Variable_3/optimizer"
+  input: "bo/optimizer_1"
   input: "save/RestoreV2:10"
   attr {
     key: "T"
@@ -5897,7 +5897,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@bo"
       }
     }
   }
@@ -5917,7 +5917,7 @@ node {
 node {
   name: "save/Assign_11"
   op: "Assign"
-  input: "Variable_3/optimizer_1"
+  input: "w1"
   input: "save/RestoreV2:11"
   attr {
     key: "T"
@@ -5929,7 +5929,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@w1"
       }
     }
   }
@@ -5949,7 +5949,7 @@ node {
 node {
   name: "save/Assign_12"
   op: "Assign"
-  input: "Variable_4"
+  input: "w1/optimizer"
   input: "save/RestoreV2:12"
   attr {
     key: "T"
@@ -5961,7 +5961,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@w1"
       }
     }
   }
@@ -5981,7 +5981,7 @@ node {
 node {
   name: "save/Assign_13"
   op: "Assign"
-  input: "Variable_4/optimizer"
+  input: "w1/optimizer_1"
   input: "save/RestoreV2:13"
   attr {
     key: "T"
@@ -5993,7 +5993,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@w1"
       }
     }
   }
@@ -6013,7 +6013,7 @@ node {
 node {
   name: "save/Assign_14"
   op: "Assign"
-  input: "Variable_4/optimizer_1"
+  input: "w2"
   input: "save/RestoreV2:14"
   attr {
     key: "T"
@@ -6025,7 +6025,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@w2"
       }
     }
   }
@@ -6045,7 +6045,7 @@ node {
 node {
   name: "save/Assign_15"
   op: "Assign"
-  input: "Variable_5"
+  input: "w2/optimizer"
   input: "save/RestoreV2:15"
   attr {
     key: "T"
@@ -6057,7 +6057,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@w2"
       }
     }
   }
@@ -6077,7 +6077,7 @@ node {
 node {
   name: "save/Assign_16"
   op: "Assign"
-  input: "Variable_5/optimizer"
+  input: "w2/optimizer_1"
   input: "save/RestoreV2:16"
   attr {
     key: "T"
@@ -6089,7 +6089,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@w2"
       }
     }
   }
@@ -6109,7 +6109,7 @@ node {
 node {
   name: "save/Assign_17"
   op: "Assign"
-  input: "Variable_5/optimizer_1"
+  input: "wo"
   input: "save/RestoreV2:17"
   attr {
     key: "T"
@@ -6121,7 +6121,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@wo"
       }
     }
   }
@@ -6141,7 +6141,7 @@ node {
 node {
   name: "save/Assign_18"
   op: "Assign"
-  input: "beta1_power"
+  input: "wo/optimizer"
   input: "save/RestoreV2:18"
   attr {
     key: "T"
@@ -6153,7 +6153,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@wo"
       }
     }
   }
@@ -6173,7 +6173,7 @@ node {
 node {
   name: "save/Assign_19"
   op: "Assign"
-  input: "beta2_power"
+  input: "wo/optimizer_1"
   input: "save/RestoreV2:19"
   attr {
     key: "T"
@@ -6185,7 +6185,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@wo"
       }
     }
   }
@@ -6229,26 +6229,26 @@ node {
 node {
   name: "init"
   op: "NoOp"
-  input: "^Variable/Assign"
-  input: "^Variable/optimizer/Assign"
-  input: "^Variable/optimizer_1/Assign"
-  input: "^Variable_1/Assign"
-  input: "^Variable_1/optimizer/Assign"
-  input: "^Variable_1/optimizer_1/Assign"
-  input: "^Variable_2/Assign"
-  input: "^Variable_2/optimizer/Assign"
-  input: "^Variable_2/optimizer_1/Assign"
-  input: "^Variable_3/Assign"
-  input: "^Variable_3/optimizer/Assign"
-  input: "^Variable_3/optimizer_1/Assign"
-  input: "^Variable_4/Assign"
-  input: "^Variable_4/optimizer/Assign"
-  input: "^Variable_4/optimizer_1/Assign"
-  input: "^Variable_5/Assign"
-  input: "^Variable_5/optimizer/Assign"
-  input: "^Variable_5/optimizer_1/Assign"
+  input: "^b1/Assign"
+  input: "^b1/optimizer/Assign"
+  input: "^b1/optimizer_1/Assign"
+  input: "^b2/Assign"
+  input: "^b2/optimizer/Assign"
+  input: "^b2/optimizer_1/Assign"
   input: "^beta1_power/Assign"
   input: "^beta2_power/Assign"
+  input: "^bo/Assign"
+  input: "^bo/optimizer/Assign"
+  input: "^bo/optimizer_1/Assign"
+  input: "^w1/Assign"
+  input: "^w1/optimizer/Assign"
+  input: "^w1/optimizer_1/Assign"
+  input: "^w2/Assign"
+  input: "^w2/optimizer/Assign"
+  input: "^w2/optimizer_1/Assign"
+  input: "^wo/Assign"
+  input: "^wo/optimizer/Assign"
+  input: "^wo/optimizer_1/Assign"
 }
 node {
   name: "save_1/filename/input"
@@ -6330,26 +6330,26 @@ node {
             size: 20
           }
         }
-        string_val: "Variable"
-        string_val: "Variable/optimizer"
-        string_val: "Variable/optimizer_1"
-        string_val: "Variable_1"
-        string_val: "Variable_1/optimizer"
-        string_val: "Variable_1/optimizer_1"
-        string_val: "Variable_2"
-        string_val: "Variable_2/optimizer"
-        string_val: "Variable_2/optimizer_1"
-        string_val: "Variable_3"
-        string_val: "Variable_3/optimizer"
-        string_val: "Variable_3/optimizer_1"
-        string_val: "Variable_4"
-        string_val: "Variable_4/optimizer"
-        string_val: "Variable_4/optimizer_1"
-        string_val: "Variable_5"
-        string_val: "Variable_5/optimizer"
-        string_val: "Variable_5/optimizer_1"
+        string_val: "b1"
+        string_val: "b1/optimizer"
+        string_val: "b1/optimizer_1"
+        string_val: "b2"
+        string_val: "b2/optimizer"
+        string_val: "b2/optimizer_1"
         string_val: "beta1_power"
         string_val: "beta2_power"
+        string_val: "bo"
+        string_val: "bo/optimizer"
+        string_val: "bo/optimizer_1"
+        string_val: "w1"
+        string_val: "w1/optimizer"
+        string_val: "w1/optimizer_1"
+        string_val: "w2"
+        string_val: "w2/optimizer"
+        string_val: "w2/optimizer_1"
+        string_val: "wo"
+        string_val: "wo/optimizer"
+        string_val: "wo/optimizer_1"
       }
     }
   }
@@ -6404,26 +6404,26 @@ node {
   input: "save_1/Const"
   input: "save_1/SaveV2/tensor_names"
   input: "save_1/SaveV2/shape_and_slices"
-  input: "Variable"
-  input: "Variable/optimizer"
-  input: "Variable/optimizer_1"
-  input: "Variable_1"
-  input: "Variable_1/optimizer"
-  input: "Variable_1/optimizer_1"
-  input: "Variable_2"
-  input: "Variable_2/optimizer"
-  input: "Variable_2/optimizer_1"
-  input: "Variable_3"
-  input: "Variable_3/optimizer"
-  input: "Variable_3/optimizer_1"
-  input: "Variable_4"
-  input: "Variable_4/optimizer"
-  input: "Variable_4/optimizer_1"
-  input: "Variable_5"
-  input: "Variable_5/optimizer"
-  input: "Variable_5/optimizer_1"
+  input: "b1"
+  input: "b1/optimizer"
+  input: "b1/optimizer_1"
+  input: "b2"
+  input: "b2/optimizer"
+  input: "b2/optimizer_1"
   input: "beta1_power"
   input: "beta2_power"
+  input: "bo"
+  input: "bo/optimizer"
+  input: "bo/optimizer_1"
+  input: "w1"
+  input: "w1/optimizer"
+  input: "w1/optimizer_1"
+  input: "w2"
+  input: "w2/optimizer"
+  input: "w2/optimizer_1"
+  input: "wo"
+  input: "wo/optimizer"
+  input: "wo/optimizer_1"
   device: "/device:CPU:0"
   attr {
     key: "dtypes"
@@ -6494,26 +6494,26 @@ node {
             size: 20
           }
         }
-        string_val: "Variable"
-        string_val: "Variable/optimizer"
-        string_val: "Variable/optimizer_1"
-        string_val: "Variable_1"
-        string_val: "Variable_1/optimizer"
-        string_val: "Variable_1/optimizer_1"
-        string_val: "Variable_2"
-        string_val: "Variable_2/optimizer"
-        string_val: "Variable_2/optimizer_1"
-        string_val: "Variable_3"
-        string_val: "Variable_3/optimizer"
-        string_val: "Variable_3/optimizer_1"
-        string_val: "Variable_4"
-        string_val: "Variable_4/optimizer"
-        string_val: "Variable_4/optimizer_1"
-        string_val: "Variable_5"
-        string_val: "Variable_5/optimizer"
-        string_val: "Variable_5/optimizer_1"
+        string_val: "b1"
+        string_val: "b1/optimizer"
+        string_val: "b1/optimizer_1"
+        string_val: "b2"
+        string_val: "b2/optimizer"
+        string_val: "b2/optimizer_1"
         string_val: "beta1_power"
         string_val: "beta2_power"
+        string_val: "bo"
+        string_val: "bo/optimizer"
+        string_val: "bo/optimizer_1"
+        string_val: "w1"
+        string_val: "w1/optimizer"
+        string_val: "w1/optimizer_1"
+        string_val: "w2"
+        string_val: "w2/optimizer"
+        string_val: "w2/optimizer_1"
+        string_val: "wo"
+        string_val: "wo/optimizer"
+        string_val: "wo/optimizer_1"
       }
     }
   }
@@ -6600,7 +6600,7 @@ node {
 node {
   name: "save_1/Assign"
   op: "Assign"
-  input: "Variable"
+  input: "b1"
   input: "save_1/RestoreV2"
   attr {
     key: "T"
@@ -6612,7 +6612,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -6632,7 +6632,7 @@ node {
 node {
   name: "save_1/Assign_1"
   op: "Assign"
-  input: "Variable/optimizer"
+  input: "b1/optimizer"
   input: "save_1/RestoreV2:1"
   attr {
     key: "T"
@@ -6644,7 +6644,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -6664,7 +6664,7 @@ node {
 node {
   name: "save_1/Assign_2"
   op: "Assign"
-  input: "Variable/optimizer_1"
+  input: "b1/optimizer_1"
   input: "save_1/RestoreV2:2"
   attr {
     key: "T"
@@ -6676,7 +6676,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@b1"
       }
     }
   }
@@ -6696,7 +6696,7 @@ node {
 node {
   name: "save_1/Assign_3"
   op: "Assign"
-  input: "Variable_1"
+  input: "b2"
   input: "save_1/RestoreV2:3"
   attr {
     key: "T"
@@ -6708,7 +6708,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b2"
       }
     }
   }
@@ -6728,7 +6728,7 @@ node {
 node {
   name: "save_1/Assign_4"
   op: "Assign"
-  input: "Variable_1/optimizer"
+  input: "b2/optimizer"
   input: "save_1/RestoreV2:4"
   attr {
     key: "T"
@@ -6740,7 +6740,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b2"
       }
     }
   }
@@ -6760,7 +6760,7 @@ node {
 node {
   name: "save_1/Assign_5"
   op: "Assign"
-  input: "Variable_1/optimizer_1"
+  input: "b2/optimizer_1"
   input: "save_1/RestoreV2:5"
   attr {
     key: "T"
@@ -6772,7 +6772,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_1"
+        s: "loc:@b2"
       }
     }
   }
@@ -6792,7 +6792,7 @@ node {
 node {
   name: "save_1/Assign_6"
   op: "Assign"
-  input: "Variable_2"
+  input: "beta1_power"
   input: "save_1/RestoreV2:6"
   attr {
     key: "T"
@@ -6804,7 +6804,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@b1"
       }
     }
   }
@@ -6824,7 +6824,7 @@ node {
 node {
   name: "save_1/Assign_7"
   op: "Assign"
-  input: "Variable_2/optimizer"
+  input: "beta2_power"
   input: "save_1/RestoreV2:7"
   attr {
     key: "T"
@@ -6836,7 +6836,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@b1"
       }
     }
   }
@@ -6856,7 +6856,7 @@ node {
 node {
   name: "save_1/Assign_8"
   op: "Assign"
-  input: "Variable_2/optimizer_1"
+  input: "bo"
   input: "save_1/RestoreV2:8"
   attr {
     key: "T"
@@ -6868,7 +6868,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_2"
+        s: "loc:@bo"
       }
     }
   }
@@ -6888,7 +6888,7 @@ node {
 node {
   name: "save_1/Assign_9"
   op: "Assign"
-  input: "Variable_3"
+  input: "bo/optimizer"
   input: "save_1/RestoreV2:9"
   attr {
     key: "T"
@@ -6900,7 +6900,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@bo"
       }
     }
   }
@@ -6920,7 +6920,7 @@ node {
 node {
   name: "save_1/Assign_10"
   op: "Assign"
-  input: "Variable_3/optimizer"
+  input: "bo/optimizer_1"
   input: "save_1/RestoreV2:10"
   attr {
     key: "T"
@@ -6932,7 +6932,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@bo"
       }
     }
   }
@@ -6952,7 +6952,7 @@ node {
 node {
   name: "save_1/Assign_11"
   op: "Assign"
-  input: "Variable_3/optimizer_1"
+  input: "w1"
   input: "save_1/RestoreV2:11"
   attr {
     key: "T"
@@ -6964,7 +6964,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_3"
+        s: "loc:@w1"
       }
     }
   }
@@ -6984,7 +6984,7 @@ node {
 node {
   name: "save_1/Assign_12"
   op: "Assign"
-  input: "Variable_4"
+  input: "w1/optimizer"
   input: "save_1/RestoreV2:12"
   attr {
     key: "T"
@@ -6996,7 +6996,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@w1"
       }
     }
   }
@@ -7016,7 +7016,7 @@ node {
 node {
   name: "save_1/Assign_13"
   op: "Assign"
-  input: "Variable_4/optimizer"
+  input: "w1/optimizer_1"
   input: "save_1/RestoreV2:13"
   attr {
     key: "T"
@@ -7028,7 +7028,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@w1"
       }
     }
   }
@@ -7048,7 +7048,7 @@ node {
 node {
   name: "save_1/Assign_14"
   op: "Assign"
-  input: "Variable_4/optimizer_1"
+  input: "w2"
   input: "save_1/RestoreV2:14"
   attr {
     key: "T"
@@ -7060,7 +7060,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_4"
+        s: "loc:@w2"
       }
     }
   }
@@ -7080,7 +7080,7 @@ node {
 node {
   name: "save_1/Assign_15"
   op: "Assign"
-  input: "Variable_5"
+  input: "w2/optimizer"
   input: "save_1/RestoreV2:15"
   attr {
     key: "T"
@@ -7092,7 +7092,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@w2"
       }
     }
   }
@@ -7112,7 +7112,7 @@ node {
 node {
   name: "save_1/Assign_16"
   op: "Assign"
-  input: "Variable_5/optimizer"
+  input: "w2/optimizer_1"
   input: "save_1/RestoreV2:16"
   attr {
     key: "T"
@@ -7124,7 +7124,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@w2"
       }
     }
   }
@@ -7144,7 +7144,7 @@ node {
 node {
   name: "save_1/Assign_17"
   op: "Assign"
-  input: "Variable_5/optimizer_1"
+  input: "wo"
   input: "save_1/RestoreV2:17"
   attr {
     key: "T"
@@ -7156,7 +7156,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable_5"
+        s: "loc:@wo"
       }
     }
   }
@@ -7176,7 +7176,7 @@ node {
 node {
   name: "save_1/Assign_18"
   op: "Assign"
-  input: "beta1_power"
+  input: "wo/optimizer"
   input: "save_1/RestoreV2:18"
   attr {
     key: "T"
@@ -7188,7 +7188,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@wo"
       }
     }
   }
@@ -7208,7 +7208,7 @@ node {
 node {
   name: "save_1/Assign_19"
   op: "Assign"
-  input: "beta2_power"
+  input: "wo/optimizer_1"
   input: "save_1/RestoreV2:19"
   attr {
     key: "T"
@@ -7220,7 +7220,7 @@ node {
     key: "_class"
     value {
       list {
-        s: "loc:@Variable"
+        s: "loc:@wo"
       }
     }
   }
