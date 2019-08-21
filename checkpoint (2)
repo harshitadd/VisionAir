@@ -1,0 +1,2 @@
+model_checkpoint_path: "/content/FINAL_GRAPH.ckpt"
+all_model_checkpoint_paths: "/content/FINAL_GRAPH.ckpt"
