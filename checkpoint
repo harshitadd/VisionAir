@@ -1,2 +1,2 @@
-model_checkpoint_path: "/content/final_model.ckpt"
-all_model_checkpoint_paths: "/content/final_model.ckpt"
+model_checkpoint_path: "/content/final_TBP_WITHNOV.ckpt"
+all_model_checkpoint_paths: "/content/final_TBP_WITHNOV.ckpt"
