@@ -17,10 +17,7 @@ Script Information:
       
       - Converting LDR to HDR using LDR Fusion
       
-      - Scripts for computing feature constants: Omega, Flattened Haze
-
-Misc: 
-- resources: Literature that either implemented. 
+      - Scripts for computing feature constants: Omega, Flattened Haze 
 
 # Please note that this repository is not being actively managed currently.
 
